@@ -1,3 +1,17 @@
+# This is a modified version of DudeOfAwesome's ErgoDox Layout. 
+## Modifications include:
+1. Moved Symbol and Number layers to home row 
+2. Not using 'ADJUST' layer
+3. Moved some base keys ( ctrl, home/end, media, etc. ) see qwerty mapping in
+   keymap.c for full mapping
+4. Flushed out 'gaming' layer, have more to fill in but moved space to where
+   you would expect, added 'm' for map toggle and such, added vim style arrow keys on
+   right hand keyboard
+5. Added toggle and hold for 3rd 'gaming' layer allowing you to hold to add
+   vim style arrow keys 
+
+
+
 # DudeOfAwesome's ErgoDox Infinity Layout
 
 A basic ErgoDox layout with Planck-like tri-layer support.
