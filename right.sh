@@ -1,2 +1,2 @@
-make ergodox_infinity:gabenmessiah MASTER=right
-sudo make ergodox_infinity:gabenmessiah:dfu-util MASTER=right
+make ergodox_infinity:${LAYOUT} MASTER=right
+make ergodox_infinity:${LAYOUT}:dfu-util MASTER=right
