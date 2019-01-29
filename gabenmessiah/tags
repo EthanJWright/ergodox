@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+COLEMAK	keymap.c	/^  COLEMAK,$/;"	e	enum:custom_keycodes	file:
+CONFIG_USER_H	config.h	2;"	d
+DVORAK	keymap.c	/^  DVORAK,$/;"	e	enum:custom_keycodes	file:
+EPRM	keymap.c	/^  EPRM,$/;"	e	enum:custom_keycodes	file:
+GAME	keymap.c	/^  GAME,$/;"	e	enum:custom_keycodes	file:
+LCD_STATE_BITMAP_AND_LEDS	visualizer.c	/^  LCD_STATE_BITMAP_AND_LEDS,$/;"	e	enum:__anon1	file:
+LCD_STATE_INITIAL	visualizer.c	/^  LCD_STATE_INITIAL,$/;"	e	enum:__anon1	file:
+LCD_STATE_LAYER_BITMAP	visualizer.c	/^  LCD_STATE_LAYER_BITMAP,$/;"	e	enum:__anon1	file:
+LOWER	keymap.c	/^  LOWER,$/;"	e	enum:custom_keycodes	file:
+MOUSE	keymap.c	/^  MOUSE,$/;"	e	enum:custom_keycodes	file:
+QWERTY	keymap.c	/^  QWERTY = SAFE_RANGE,$/;"	e	enum:custom_keycodes	file:
+RAISE	keymap.c	/^  RAISE,$/;"	e	enum:custom_keycodes	file:
+RGB_SLD	keymap.c	/^  RGB_SLD,$/;"	e	enum:custom_keycodes	file:
+TAPPING_TOGGLE	config.h	4;"	d
+VISUALIZER_H_	visualizer.h	18;"	d
+VRSN	keymap.c	/^  VRSN,$/;"	e	enum:custom_keycodes	file:
+WORKMAN	keymap.c	/^  WORKMAN,$/;"	e	enum:custom_keycodes	file:
+_ADJUST	keymap.c	/^  _ADJUST,$/;"	e	enum:custom_layers	file:
+_COLEMAK	keymap.c	/^  _COLEMAK,$/;"	e	enum:custom_layers	file:
+_DVORAK	keymap.c	/^  _DVORAK,$/;"	e	enum:custom_layers	file:
+_GAME	keymap.c	/^  _GAME,$/;"	e	enum:custom_layers	file:
+_LOWER	keymap.c	/^  _LOWER,$/;"	e	enum:custom_layers	file:
+_MOUSE	keymap.c	/^  _MOUSE,$/;"	e	enum:custom_layers	file:
+_NUM	keymap.c	/^  _NUM,$/;"	e	enum:custom_layers	file:
+_QWERTY	keymap.c	/^  _QWERTY,$/;"	e	enum:custom_layers	file:
+_RAISE	keymap.c	/^  _RAISE,$/;"	e	enum:custom_layers	file:
+_WORKMAN	keymap.c	/^  _WORKMAN,$/;"	e	enum:custom_layers	file:
+action_get_macro	keymap.c	/^const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)$/;"	f
+custom_keycodes	keymap.c	/^enum custom_keycodes {$/;"	g	file:
+custom_layers	keymap.c	/^enum custom_layers {$/;"	g	file:
+ergodox_board_led_off	visualizer.c	/^void ergodox_board_led_off(void){$/;"	f
+ergodox_board_led_on	visualizer.c	/^void ergodox_board_led_on(void){$/;"	f
+ergodox_led_adjust_off	visualizer.c	/^void ergodox_led_adjust_off(void){$/;"	f
+ergodox_led_adjust_on	visualizer.c	/^void ergodox_led_adjust_on(void){$/;"	f
+ergodox_led_adjust_set	visualizer.c	/^void ergodox_led_adjust_set(uint8_t n) {$/;"	f
+ergodox_led_lower_off	visualizer.c	/^void ergodox_led_lower_off(void){$/;"	f
+ergodox_led_lower_on	visualizer.c	/^void ergodox_led_lower_on(void){$/;"	f
+ergodox_led_lower_set	visualizer.c	/^void ergodox_led_lower_set(uint8_t n) {$/;"	f
+ergodox_led_raise_off	visualizer.c	/^void ergodox_led_raise_off(void){$/;"	f
+ergodox_led_raise_on	visualizer.c	/^void ergodox_led_raise_on(void){$/;"	f
+ergodox_led_raise_set	visualizer.c	/^void ergodox_led_raise_set(uint8_t n) {$/;"	f
+get_brightness	visualizer.c	/^static uint8_t get_brightness(visualizer_user_data_t* user_data, uint8_t index) {$/;"	f	file:
+get_led_index_master	visualizer.c	/^static uint8_t get_led_index_master(visualizer_user_data_t* user_data) {$/;"	f	file:
+get_led_index_slave	visualizer.c	/^static uint8_t get_led_index_slave(visualizer_user_data_t* user_data) {$/;"	f	file:
+get_secondary_led_index	visualizer.c	/^static uint8_t get_secondary_led_index(visualizer_user_data_t* user_data) {$/;"	f	file:
+initial_color	visualizer.c	/^static const uint32_t initial_color = LCD_COLOR(84, 255, 255);$/;"	v	file:
+initialize_user_visualizer	visualizer.c	/^void initialize_user_visualizer(visualizer_state_t* state) {$/;"	f
+is_led_on	visualizer.c	/^static inline bool is_led_on(visualizer_user_data_t* user_data, uint8_t num) {$/;"	f	file:
+keymaps	keymap.c	/^const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {$/;"	v
+lcd_bitmap_animation	visualizer.c	/^static keyframe_animation_t lcd_bitmap_animation = {$/;"	v	file:
+lcd_bitmap_leds_animation	visualizer.c	/^static keyframe_animation_t lcd_bitmap_leds_animation = {$/;"	v	file:
+lcd_state	visualizer.c	/^static lcd_state_t lcd_state = LCD_STATE_INITIAL;$/;"	v	file:
+lcd_state_t	visualizer.c	/^} lcd_state_t;$/;"	t	typeref:enum:__anon1	file:
+led1	visualizer.c	/^  uint8_t led1;$/;"	m	struct:__anon2	file:
+led2	visualizer.c	/^  uint8_t led2;$/;"	m	struct:__anon2	file:
+led3	visualizer.c	/^  uint8_t led3;$/;"	m	struct:__anon2	file:
+led_emulation_colors	visualizer.c	/^static const uint32_t led_emulation_colors[4] = {$/;"	v	file:
+led_on	visualizer.c	/^  uint8_t led_on;$/;"	m	struct:__anon2	file:
+logo_background_color	visualizer.c	/^static const uint32_t logo_background_color = LCD_COLOR(0, 0, 255);$/;"	v	file:
+matrix_init_user	keymap.c	/^void matrix_init_user(void) {$/;"	f
+matrix_scan_user	keymap.c	/^void matrix_scan_user(void) {$/;"	f
+next_led_target_color	visualizer.c	/^static uint32_t next_led_target_color = 0;$/;"	v	file:
+one_led_color	visualizer.c	/^static keyframe_animation_t one_led_color = {$/;"	v	file:
+process_record_user	keymap.c	/^bool process_record_user(uint16_t keycode, keyrecord_t *record) {$/;"	f
+swap_led_target_color	visualizer.c	/^bool swap_led_target_color(keyframe_animation_t* animation, visualizer_state_t* state) {$/;"	f
+two_led_colors	visualizer.c	/^static keyframe_animation_t two_led_colors = {$/;"	v	file:
+update_emulated_leds	visualizer.c	/^static void update_emulated_leds(visualizer_state_t* state, visualizer_keyboard_status_t* prev_status) {$/;"	f	file:
+update_lcd_text	visualizer.c	/^static void update_lcd_text(visualizer_state_t* state, visualizer_keyboard_status_t* prev_status) {$/;"	f	file:
+update_user_visualizer_state	visualizer.c	/^void update_user_visualizer_state(visualizer_state_t* state, visualizer_keyboard_status_t* prev_status) {$/;"	f
+user_data_keyboard	visualizer.c	/^static visualizer_user_data_t user_data_keyboard = {$/;"	v	file:
+user_visualizer_resume	visualizer.c	/^void user_visualizer_resume(visualizer_state_t* state) {$/;"	f
+user_visualizer_suspend	visualizer.c	/^void user_visualizer_suspend(visualizer_state_t* state) {$/;"	f
+visualizer_user_data_t	visualizer.c	/^} visualizer_user_data_t;$/;"	t	typeref:struct:__anon2	file:
