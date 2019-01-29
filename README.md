@@ -20,7 +20,8 @@ chmod +x run.sh
 ```
 ./left.sh
 ```
-4. Run the script to install your RIGHT keymap
+4. Put your RIGHT keyboard into FLASH mode by pressing the button on the back
+5. Run the script to install your RIGHT keymap
 ```
 ./right.sh
 ```
