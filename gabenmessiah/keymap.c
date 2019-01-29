@@ -70,7 +70,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_LBRACKET, KC_Y, KC_U,  KC_I,    KC_O,    KC_P,                KC_RBRACKET,
                KC_H, KC_J,  KC_K,    KC_L,    KC_SCOLON,           KC_QUOTE,
   KC_BSLS,      KC_N, KC_M,  KC_COMM, KC_DOT,  LT(_MOUSE, KC_SLSH), RSFT_T(KC_ENT),
-                     RAISE, KC_MPLY, KC_VOLD, KC_VOLU,               KC_MNXT,
+                     RAISE, KC_MPLY, KC_VOLD, KC_VOLU,               KC_LGUI,
 
   KC_LCTL, KC_LALT,
   KC_ESC,
