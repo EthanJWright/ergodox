@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Keymap 0: Basic QWERTY layer
  *
  * ,---------------------------------------------.           ,---------------------------------------------.
- * |   `    |  1  |  2  |  3  |  4  |  5  | Esc  |           | Esc  |  6  |  7  |  8  |  9  |  0  |   Del  |
+ * |   `    |  1  |  2  |  3  |  4  |  5  | Esc  |           | Esc  |  6  |  7  |  8  |  9  |  0  |   _    |
  * |--------+-----+-----+-----+-----+------------|           |------+-----+-----+-----+-----+-----+--------|
  * |  Tab   |  Q  |  W  |  E  |  R  |  T  |LGAME |           |  [{  |  Y  |  U  |  I  |  O  |  P  |  ]}    |
  * |--------+-----+-----+-----+-----+-----|      |           |      |-----+-----+-----+-----+-----+--------|
@@ -66,7 +66,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                       KC_BSPACE,  LOWER,    KC_HOME,
 
   // right hand
-  KC_ESC,      KC_6, KC_7,  KC_8,    KC_9,    KC_0,                KC_DEL,
+  KC_ESC,      KC_6, KC_7,  KC_8,    KC_9,    KC_0,                KC_UNDS,
   KC_LBRACKET, KC_Y, KC_U,  KC_I,    KC_O,    KC_P,                KC_RBRACKET,
                KC_H, KC_J,  KC_K,    KC_L,    KC_SCOLON,           KC_QUOTE,
   KC_BSLS,      KC_N, KC_M,  KC_COMM, KC_DOT,  LT(_MOUSE, KC_SLSH), RSFT_T(KC_ENT),

@@ -16,19 +16,10 @@ RUN apt-get update -y && apt-get upgrade -y &&\
     binutils-arm-none-eabi \
     libnewlib-arm-none-eabi
 
-
 RUN git clone https://github.com/qmk/qmk_firmware.git
-
 
 WORKDIR qmk_firmware
 
 RUN git submodule sync --recursive && git submodule update --init --recursive
 
-COPY gabenmessiah keyboards/ergodox_infinity/keymaps/gabenmessiah
-
 COPY . .
-
-#RUN util/docker_build.sh
-
-
-
