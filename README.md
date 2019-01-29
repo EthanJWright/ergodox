@@ -8,7 +8,7 @@ export LAYOUT=<local_layout_directory>
 More layouts including the QMK default can be found
 [here](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodox_infinity/keymaps)
 
-## Run 
+## Install Firmware 
 
 1. Download and attatch to the Docker container
 ```
